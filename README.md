@@ -22,13 +22,10 @@ A web-based deep learning application to detect hair and scalp diseases from upl
 
 
 cnn/                                                                                                                                                                                  
-├── model/inception_v3_finetuned_L2.h5
-
-├── splittor.py                                                                                                                                                                                 
-├── static/uploads/
-
-├──dataset/all
-                                                                                                                                                                    
+├── model/inception_v3_finetuned_L2.h5                                                                                                                                                  
+├── splittor.py                                                                                                                                                                                                               
+├── static/uploads/                                                                                                                                                                         
+├──dataset/all                                                                                                                                                                   
 ├── templates/index.html                                                                                                                                                                             
 ├── disease_info.json                                                                                                                                                                   
 ├── app.py
@@ -85,12 +82,7 @@ cnn/
 * Trichotillomania
 
 ```
-```
-## 📄 License
 
-MIT License
-
-```
 
 ```
 
