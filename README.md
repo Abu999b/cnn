@@ -176,11 +176,8 @@ This project presents *ScalpDiseaseDetection*, a deep learning-powered web appli
         * Amazon S3
       * In your code, download it at runtime using:
       
-        ```python
-        gdown.download() or requests.get()
-        ```
+        >> gdown.download() or requests.get()
 
-```markdown
 7. ## Performance & Accuracy
 
       * ✅ **Test Accuracy**: \~85% on unseen images
@@ -198,8 +195,5 @@ This project presents *ScalpDiseaseDetection*, a deep learning-powered web appli
    * 🔐 Add JWT-based auth for upload protection
 
 
-
-
-
-### 🙌 Made with ❤️ using Python, TensorFlow, Flask & Streamlit
+## 🙌 Made with ❤️ using Python, TensorFlow, Flask & Streamlit
 ```
