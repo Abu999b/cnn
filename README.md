@@ -14,7 +14,7 @@ A web-based deep learning application to detect hair and scalp diseases from upl
 
 ## 📦 Tech Stack
 - Python, Flask
-- TensorFlow (InceptionV3 model)
+- TensorFlow (InceptionV3 CNN Model)
 - HTML/CSS + JavaScript (Frontend)
 - Hosted via Render (or other platforms)
 
