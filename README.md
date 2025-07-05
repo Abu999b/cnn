@@ -1,13 +1,8 @@
-Great! Since your model is now being downloaded only once (at container start), performance won’t be affected during each upload.
 
-Here's what you requested next:
-
----
-
-### ✅ README.md
+### ✅ ScalpDiseaseDetection Convulational Neural Network Model
 
 ```markdown
-# ScalpDetectAI
+# ScalpDiseaseDetection
 
 A web-based deep learning application to detect hair and scalp diseases from uploaded images using a fine-tuned InceptionV3 model.
 
@@ -24,45 +19,58 @@ A web-based deep learning application to detect hair and scalp diseases from upl
 - Hosted via Render (or other platforms)
 
 ## 📁 Folder Structure
-```
 
-ScalpDetectAI/
-├── model/
-├── static/uploads/
-├── templates/
-├── disease\_info.json
+
+cnn/                                                                                                                                                                                  
+├── model/                                                                                                                                                                                    
+├── static/uploads/                                                                                                                                                                        
+├── templates/                                                                                                                                                                             
+├── disease\_info.json                                                                                                                                                                   
 ├── app.py
 
-````
+
+```
+
+```markdown
 
 ## 🧠 Model Info
 - Fine-tuned InceptionV3
 - Input: 150x150 RGB
 - Output: 14-class softmax
 
-## ⚙️ Setup Instructions
+### ⚙️ Setup Instructions
 
 1. Clone the repository
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-````
 
-3. Run the app:
+2. Move into cnn/.. using >>cd cnn
+
+3. Move into environment:
+   >>python -m venv env
+   >>.\env\Scripts\Activate.ps1
+
+4. Install dependencies:   
+   run >>pip install -r requirements.txt
+
+5. Load hairdisease dataset into root directory from xyzkaggle.com
+   run >>python splittor.py
+   to create train/..,test/.. and val/.. in hairdisease folder from all/.. folder
+   
+6. Train model using dataset
+   run >>jupyter notebook
+   ```bash
+   run ...\Gaussian InceptionV3.ipynb in jupitor notebook.
+   inception_v3_finetuned_L2.h5 model gets created in root folder automatically
+   move inception_v3_finetuned_L2.h5 into model/..
+   ```
+
+7. Run the app:
 
    ```bash
    python app.py
    ```
+```
 
-## 🌐 Deployment (Render)
-
-1. Upload your code to GitHub
-2. Go to [https://render.com](https://render.com)
-3. Create a new Web Service:
-
-   * Build Command: `pip install -r requirements.txt`
-   * Start Command: `python app.py`
-4. (Optional) Model is downloaded dynamically if not found
+```
 
 ## 🔍 Sample Conditions
 
@@ -71,52 +79,55 @@ ScalpDetectAI/
 * Folliculitis Decalvans
 * Trichotillomania
 
+```
+```
 ## 📄 License
 
 MIT License
 
 ```
 
----
+```
 
-### 📑 Abstract
+## 📑 Abstract
 
-**Title:** ScalpDetectAI - Deep Learning-Based Hair and Scalp Disease Detection
+**Title:** InceptionV3 Convulational Neural Network - Deep Learning-Based Hair and Scalp Disease Detection
 
 **Abstract:**
-This project presents *ScalpDetectAI*, a deep learning-powered web application designed for early detection of scalp and hair diseases. Leveraging a fine-tuned InceptionV3 convolutional neural network, the system classifies uploaded scalp images into 14 dermatological conditions, including alopecia, folliculitis, and more. The application provides instant predictions with confidence scores, coupled with condition-specific information such as symptoms, treatments, and expert advice. Designed for both patients and dermatologists, this tool serves as a scalable AI-assisted pre-diagnostic system accessible through any browser.
+This project presents *ScalpDiseaseDetection*, a deep learning-powered web application designed for early detection of scalp and hair diseases. Leveraging a fine-tuned InceptionV3 convolutional neural network, the system classifies uploaded scalp images into 14 dermatological conditions, including alopecia, folliculitis, and more. The application provides instant predictions with confidence scores, coupled with condition-specific information such as symptoms, treatments, and expert advice. Designed for both patients and dermatologists, this tool serves as a scalable AI-assisted pre-diagnostic system accessible through any browser.
 
----
 
-### 📘 Documentation Sections to Include:
 
-1. **Introduction**  
+
+
+## 📘 Documentation:
+```markdown
+
+1. ## Introduction
    Brief about the motivation and problem.
 
-2. **Model Architecture**  
+2.  ## Model Architecture
    - Based on InceptionV3 (pre-trained on ImageNet)
    - Fine-tuned on scalp disease dataset
 
-3. **Preprocessing Pipeline**  
+3. ## Preprocessing Pipeline
    - Image resize to 150x150  
    - RGB conversion  
    - Normalization and batch dimension
 
-4. **Flask Backend**  
+4. ## Flask Backend
    - Routes: `/`, `/upload`, `/uploads/<file>`, `/health`  
    - Handles prediction, file saving, and disease info retrieval
 
-5. **Frontend (index.html)**  
+5. ## Frontend (index.html) 
    - File upload UI  
    - Result display with disease details
 
-6. **Deployment Guide**  
+6. ## Deployment Guide 
    - How to deploy on Render  
    - Large model workaround using Hugging Face or Google Drive
 
-7. **Performance & Accuracy**  
-   (Add model accuracy if available)
+7. ## Performance & Accuracy
+   - 85%
 
----
-
-
+```
