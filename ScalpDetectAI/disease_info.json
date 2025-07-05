@@ -1,0 +1,410 @@
+{
+  "dermatological_conditions": [
+    {
+      "name": "Acne Keloidalis",
+      "description": "Acne keloidalis nuchae is a chronic inflammatory condition that affects the posterior neck and occipital scalp, primarily in Black men.",
+      "image_appearance": "Small, dome-shaped papules and pustules that progress to larger keloid-like nodules and plaques. The lesions appear as firm, flesh-colored to hyperpigmented bumps that may coalesce into larger masses. Hair follicles are typically destroyed, leading to permanent hair loss in affected areas.",
+      "symptoms": [
+        "Small, firm bumps on the back of the neck",
+        "Itching and tenderness",
+        "Progressive enlargement of lesions",
+        "Permanent hair loss in affected areas",
+        "Possible secondary bacterial infection",
+        "Scarring and keloid formation"
+      ],
+      "treatment": [
+        "Topical antibiotics (clindamycin, erythromycin)",
+        "Topical retinoids",
+        "Intralesional corticosteroid injections",
+        "Oral antibiotics for secondary infection",
+        "Laser therapy (CO2 laser, Nd:YAG)",
+        "Surgical excision for large lesions"
+      ],
+      "advice": [
+        "Avoid close shaving and use electric clippers instead",
+        "Keep the neck area clean and dry",
+        "Avoid tight collars and clothing",
+        "Seek early treatment to prevent progression",
+        "Follow up regularly with dermatologist",
+        "Be patient as treatment takes time to show results"
+      ]
+    },
+    {
+      "name": "Alopecia Areata",
+      "description": "An autoimmune condition causing sudden, patchy hair loss on the scalp, face, or other areas of the body.",
+      "image_appearance": "Well-defined, round or oval patches of complete hair loss with smooth, normal-appearing skin. The patches may be single or multiple. 'Exclamation point' hairs (short, broken hairs that are wider at the tip) may be visible at the edges of patches.",
+      "symptoms": [
+        "Sudden onset of round, smooth patches of hair loss",
+        "Complete absence of hair in affected areas",
+        "Normal-appearing skin in bald patches",
+        "Possible nail changes (pitting, ridging)",
+        "Exclamation point hairs around patch borders",
+        "Possible progression to total scalp hair loss (alopecia totalis)"
+      ],
+      "treatment": [
+        "Topical corticosteroids",
+        "Intralesional corticosteroid injections",
+        "Topical immunotherapy (DPCP, SADBE)",
+        "Oral corticosteroids for extensive disease",
+        "JAK inhibitors (tofacitinib, ruxolitinib)",
+        "Minoxidil for mild cases"
+      ],
+      "advice": [
+        "Protect scalp from sun exposure",
+        "Consider wigs or hairpieces for cosmetic coverage",
+        "Join support groups for emotional support",
+        "Maintain good overall health and manage stress",
+        "Be patient as hair regrowth can take months",
+        "Regular follow-up with dermatologist is important"
+      ]
+    },
+    {
+      "name": "Androgenic Alopecia",
+      "description": "The most common form of hair loss in both men and women, caused by genetics and sensitivity to dihydrotestosterone (DHT).",
+      "image_appearance": "In men: receding hairline and crown thinning progressing to complete baldness on top. In women: diffuse thinning over the crown while maintaining the frontal hairline. Hair appears progressively thinner and shorter over time.",
+      "symptoms": [
+        "Gradual hair thinning over months to years",
+        "Receding hairline (men)",
+        "Crown thinning (both sexes)",
+        "Diffuse thinning over the top of scalp (women)",
+        "Shorter, finer hair texture",
+        "Increased hair shedding"
+      ],
+      "treatment": [
+        "Topical minoxidil (2% or 5%)",
+        "Oral finasteride (men only)",
+        "Oral dutasteride",
+        "Hair transplantation",
+        "Low-level laser therapy",
+        "Platelet-rich plasma (PRP) therapy"
+      ],
+      "advice": [
+        "Start treatment early for best results",
+        "Be consistent with medications",
+        "Protect scalp from sun damage",
+        "Maintain a healthy diet rich in protein",
+        "Avoid harsh hair treatments",
+        "Consider counseling for psychological impact"
+      ]
+    },
+    {
+      "name": "Discoid Lupus",
+      "description": "A chronic autoimmune condition causing inflammatory skin lesions, typically on sun-exposed areas.",
+      "image_appearance": "Well-defined, disc-shaped plaques with raised, red, scaly borders and central atrophy. Lesions may show hyperpigmentation or hypopigmentation. On the scalp, they cause scarring alopecia with permanent hair loss.",
+      "symptoms": [
+        "Raised, red, scaly plaques",
+        "Central atrophy and scarring",
+        "Permanent hair loss when affecting scalp",
+        "Hyperpigmentation or hypopigmentation",
+        "Possible itching or burning",
+        "Worsening with sun exposure"
+      ],
+      "treatment": [
+        "Topical corticosteroids",
+        "Topical calcineurin inhibitors",
+        "Intralesional corticosteroids",
+        "Antimalarial drugs (hydroxychloroquine)",
+        "Systemic immunosuppressants for severe cases",
+        "Sun protection measures"
+      ],
+      "advice": [
+        "Strict sun protection with SPF 30+ sunscreen",
+        "Wear protective clothing and hats",
+        "Avoid peak sun hours",
+        "Regular dermatologic follow-up",
+        "Monitor for systemic lupus symptoms",
+        "Maintain good skin hygiene"
+      ]
+    },
+    {
+      "name": "Dissecting Cellulitis",
+      "description": "A rare, chronic inflammatory condition of the scalp characterized by deep nodules and sinus tracts.",
+      "image_appearance": "Deep, fluctuant nodules on the scalp that may rupture and form sinus tracts. The lesions appear as boggy, tender masses with possible purulent discharge. Significant scarring and permanent hair loss occur in affected areas.",
+      "symptoms": [
+        "Deep, painful nodules on scalp",
+        "Fluctuant, boggy lesions",
+        "Purulent discharge from lesions",
+        "Sinus tract formation",
+        "Permanent scarring and hair loss",
+        "Possible fever and malaise"
+      ],
+      "treatment": [
+        "Oral antibiotics (clindamycin, doxycycline)",
+        "Oral corticosteroids",
+        "Intralesional corticosteroid injections",
+        "Surgical drainage of large lesions",
+        "Anti-TNF therapy for severe cases",
+        "Zinc supplementation"
+      ],
+      "advice": [
+        "Seek immediate medical attention",
+        "Avoid manipulation of lesions",
+        "Maintain good scalp hygiene",
+        "Follow antibiotic regimen completely",
+        "Regular monitoring by dermatologist",
+        "Consider psychological support for cosmetic concerns"
+      ]
+    },
+    {
+      "name": "Folliculitis Decalvans",
+      "description": "A chronic inflammatory condition causing scarring alopecia with recurrent follicular pustules.",
+      "image_appearance": "Patches of hair loss with follicular pustules and crusting. The affected areas show erythema, scaling, and eventually smooth scarring. Tufted hairs (multiple hair shafts emerging from single follicles) may be present.",
+      "symptoms": [
+        "Recurrent pustules around hair follicles",
+        "Progressive scarring hair loss",
+        "Burning and itching sensations",
+        "Crusting and scaling",
+        "Tufted hair formation",
+        "Possible secondary bacterial infection"
+      ],
+      "treatment": [
+        "Oral antibiotics (doxycycline, clindamycin)",
+        "Topical antibiotics",
+        "Intralesional corticosteroids",
+        "Oral corticosteroids for acute flares",
+        "Topical retinoids",
+        "Laser therapy for persistent lesions"
+      ],
+      "advice": [
+        "Avoid trauma to affected areas",
+        "Maintain good scalp hygiene",
+        "Use gentle, fragrance-free shampoos",
+        "Avoid sharing personal items",
+        "Complete antibiotic courses as prescribed",
+        "Regular dermatologic monitoring"
+      ]
+    },
+    {
+      "name": "Hirsutism",
+      "description": "Excessive hair growth in women in areas where men typically grow hair, due to increased androgen levels.",
+      "image_appearance": "Coarse, dark hair growth in male-pattern areas including face (upper lip, chin, cheeks), chest, back, abdomen, and inner thighs. The hair is terminal rather than vellus hair.",
+      "symptoms": [
+        "Excessive facial hair growth",
+        "Coarse hair on chest and back",
+        "Hair growth on abdomen and inner thighs",
+        "Possible male-pattern baldness",
+        "Deepening of voice",
+        "Acne and oily skin"
+      ],
+      "treatment": [
+        "Hormonal therapy (oral contraceptives, spironolactone)",
+        "Topical eflornithine cream",
+        "Laser hair removal",
+        "Electrolysis",
+        "Mechanical hair removal methods",
+        "Treatment of underlying conditions"
+      ],
+      "advice": [
+        "Consult endocrinologist for hormonal evaluation",
+        "Maintain healthy weight",
+        "Consider long-term hair removal options",
+        "Be patient as treatment takes several months",
+        "Regular monitoring of hormone levels",
+        "Seek psychological support if needed"
+      ]
+    },
+    {
+      "name": "Hot Comb Alopecia",
+      "description": "Hair loss caused by repeated use of hot combs, relaxers, or other heat styling tools, particularly common in African American women.",
+      "image_appearance": "Patchy hair loss typically along the hairline and crown. The affected areas may show broken hair shafts, inflammation, and eventual scarring. The hair loss pattern follows areas of repeated heat application.",
+      "symptoms": [
+        "Hair breakage and thinning",
+        "Patchy hair loss along hairline",
+        "Scalp inflammation and tenderness",
+        "Possible scarring in severe cases",
+        "Shortened hair length",
+        "Brittle, damaged hair texture"
+      ],
+      "treatment": [
+        "Discontinue heat styling and chemical treatments",
+        "Topical corticosteroids for inflammation",
+        "Topical minoxidil",
+        "Gentle hair care products",
+        "Protective hairstyles",
+        "Hair transplantation for permanent loss"
+      ],
+      "advice": [
+        "Avoid heat styling tools and chemical relaxers",
+        "Use heat protectant products if styling needed",
+        "Embrace natural hair texture",
+        "Use gentle, sulfate-free shampoos",
+        "Sleep on silk or satin pillowcases",
+        "Consult trichologist for hair care guidance"
+      ]
+    },
+    {
+      "name": "Lichen Planopilaris",
+      "description": "An inflammatory condition causing scarring alopecia, considered the follicular variant of lichen planus.",
+      "image_appearance": "Multifocal areas of hair loss with follicular hyperkeratosis and perifollicular erythema. The affected areas show scaling around hair follicles and eventual smooth scarring. Frontal fibrosing alopecia is a variant affecting the frontal hairline.",
+      "symptoms": [
+        "Progressive hair loss in patches",
+        "Follicular hyperkeratosis (rough, bumpy texture)",
+        "Perifollicular erythema and scaling",
+        "Burning and itching sensations",
+        "Possible nail changes",
+        "Eventual smooth scarring"
+      ],
+      "treatment": [
+        "Topical corticosteroids",
+        "Intralesional corticosteroid injections",
+        "Topical calcineurin inhibitors",
+        "Oral antimalarials (hydroxychloroquine)",
+        "Oral corticosteroids for extensive disease",
+        "Immunosuppressive agents for severe cases"
+      ],
+      "advice": [
+        "Early treatment is crucial to prevent progression",
+        "Avoid harsh hair treatments",
+        "Use gentle, fragrance-free products",
+        "Protect from sun exposure",
+        "Regular dermatologic follow-up",
+        "Consider hair prosthetics for cosmetic coverage"
+      ]
+    },
+    {
+      "name": "Pseudopelade",
+      "description": "A rare form of scarring alopecia characterized by smooth, atrophic patches of hair loss without inflammation.",
+      "image_appearance": "Irregular, moth-eaten pattern of hair loss with smooth, white, atrophic areas. The patches have a characteristic 'footprints in the snow' appearance. There is no visible inflammation or scaling.",
+      "symptoms": [
+        "Gradual, progressive hair loss",
+        "Smooth, white, atrophic patches",
+        "No inflammation or scaling",
+        "Moth-eaten pattern of hair loss",
+        "Usually asymptomatic",
+        "Permanent hair loss in affected areas"
+      ],
+      "treatment": [
+        "Topical corticosteroids",
+        "Intralesional corticosteroid injections",
+        "Topical minoxidil",
+        "Systemic treatments (limited effectiveness)",
+        "Hair transplantation (controversial)",
+        "Supportive care"
+      ],
+      "advice": [
+        "Early medical evaluation is important",
+        "Gentle hair care practices",
+        "Avoid trauma to affected areas",
+        "Consider cosmetic camouflage options",
+        "Psychological support may be beneficial",
+        "Regular monitoring for disease progression"
+      ]
+    },
+    {
+      "name": "Telogen Effluvium",
+      "description": "A temporary form of hair loss caused by disruption of the hair growth cycle, often triggered by stress, illness, or medications.",
+      "image_appearance": "Diffuse thinning of hair over the entire scalp without distinct bald patches. The scalp remains visible through thinned hair. Hair appears less dense overall, and increased shedding is noticeable.",
+      "symptoms": [
+        "Diffuse hair thinning",
+        "Increased daily hair shedding (>100 hairs/day)",
+        "Visible scalp through thinned hair",
+        "Hair loss 2-3 months after triggering event",
+        "Possible shortened hair length",
+        "Usually reversible"
+      ],
+      "treatment": [
+        "Identify and address underlying cause",
+        "Topical minoxidil",
+        "Nutritional supplementation if deficient",
+        "Gentle hair care practices",
+        "Stress management techniques",
+        "Patient reassurance and monitoring"
+      ],
+      "advice": [
+        "Be patient as recovery takes 6-12 months",
+        "Identify and manage triggering factors",
+        "Maintain balanced nutrition",
+        "Avoid excessive hair manipulation",
+        "Use gentle hair care products",
+        "Consider stress reduction techniques"
+      ]
+    },
+    {
+      "name": "Trichorrhexis Nodosa",
+      "description": "A hair shaft defect characterized by weak points along the hair shaft that appear as nodes, leading to easy breakage.",
+      "image_appearance": "Hair shafts show characteristic nodes or swellings that appear as white or light-colored bands across the hair. Under microscopy, the affected areas look like two brushes pushed together end-to-end.",
+      "symptoms": [
+        "Easy hair breakage",
+        "Rough, dull hair texture",
+        "Visible nodes along hair shafts",
+        "Shortened hair length",
+        "Increased hair fragility",
+        "Possible associated hair loss"
+      ],
+      "treatment": [
+        "Gentle hair care practices",
+        "Avoid chemical treatments and heat styling",
+        "Moisturizing hair products",
+        "Protective hairstyles",
+        "Nutritional support",
+        "Treatment of underlying conditions"
+      ],
+      "advice": [
+        "Avoid mechanical trauma to hair",
+        "Use wide-tooth combs and soft brushes",
+        "Minimize chemical treatments",
+        "Protect hair from environmental damage",
+        "Consider shorter hairstyles",
+        "Regular trimming to remove damaged ends"
+      ]
+    },
+    {
+      "name": "Trichotillomania",
+      "description": "A psychiatric condition characterized by the compulsive urge to pull out one's own hair, resulting in noticeable hair loss.",
+      "image_appearance": "Irregular patches of hair loss with hairs of varying lengths. The affected areas show a 'moth-eaten' appearance with some completely bald spots and areas of shortened, stubby hair regrowth.",
+      "symptoms": [
+        "Compulsive urge to pull hair",
+        "Irregular patches of hair loss",
+        "Hairs of varying lengths in affected areas",
+        "Possible ingestion of pulled hair",
+        "Feelings of tension before pulling",
+        "Relief or pleasure during pulling"
+      ],
+      "treatment": [
+        "Cognitive behavioral therapy",
+        "Habit reversal training",
+        "Acceptance and commitment therapy",
+        "Selective serotonin reuptake inhibitors (SSRIs)",
+        "N-acetylcysteine supplementation",
+        "Support groups"
+      ],
+      "advice": [
+        "Seek professional mental health support",
+        "Identify triggers and early warning signs",
+        "Develop healthy coping mechanisms",
+        "Keep hands busy with alternative activities",
+        "Consider wearing gloves or bandages",
+        "Join support groups for shared experiences"
+      ]
+    },
+    {
+      "name": "Tufted Folliculitis",
+      "description": "A rare form of folliculitis characterized by multiple hair shafts emerging from a single follicular opening, creating tufts of hair.",
+      "image_appearance": "Clusters of 10-20 hair shafts emerging from single, dilated follicular openings. The affected areas may show inflammation, crusting, and eventual scarring. The tufts create a distinctive appearance of bundled hair.",
+      "symptoms": [
+        "Multiple hairs emerging from single follicles",
+        "Follicular inflammation and pustules",
+        "Crusting and scaling around tufts",
+        "Possible pain and tenderness",
+        "Progressive scarring",
+        "Associated with other scarring alopecias"
+      ],
+      "treatment": [
+        "Oral antibiotics (doxycycline, clindamycin)",
+        "Topical antibiotics",
+        "Intralesional corticosteroids",
+        "Oral corticosteroids for acute inflammation",
+        "Surgical excision of tufts",
+        "Treatment of underlying scarring alopecia"
+      ],
+      "advice": [
+        "Avoid manipulation of tufted areas",
+        "Maintain good scalp hygiene",
+        "Follow prescribed antibiotic regimens",
+        "Regular dermatologic monitoring",
+        "Address underlying scarring alopecia",
+        "Consider cosmetic camouflage options"
+      ]
+    }
+  ]
+}

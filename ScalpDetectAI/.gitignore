@@ -1,0 +1,6 @@
+static/uploads/
+venv/
+env/
+*.h5
+hairdiseasedataset/
+model/*.h5
