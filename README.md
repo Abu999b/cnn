@@ -22,10 +22,15 @@ A web-based deep learning application to detect hair and scalp diseases from upl
 
 
 cnn/                                                                                                                                                                                  
-├── model/                                                                                                                                                                                    
-├── static/uploads/                                                                                                                                                                        
-├── templates/                                                                                                                                                                             
-├── disease\_info.json                                                                                                                                                                   
+├── model/inception_v3_finetuned_L2.h5
+
+├── splittor.py                                                                                                                                                                                 
+├── static/uploads/
+
+├──dataset/all
+                                                                                                                                                                    
+├── templates/index.html                                                                                                                                                                             
+├── disease_info.json                                                                                                                                                                   
 ├── app.py
 
 
@@ -53,7 +58,7 @@ cnn/
 
 5. Load hairdisease dataset into root directory from https://www.kaggle.com/datasets/abubakar4u900/hair-and-scalp-disease-dataset
    run >>python splittor.py
-   to create train/..,test/.. and val/.. in hairdisease folder from all/.. folder
+   to create train/..,test/.. and val/.. in dataset folder from all/.. folder
    
 6. Train model using dataset
    run >>jupyter notebook
