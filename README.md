@@ -44,6 +44,8 @@ cnn/
 
 1. Clone the repository
 
+>>git clone https://github.com/Abu999b/cnn.git
+
 2. Move into cnn/.. using >>cd cnn
 
 3. Move into environment:
@@ -55,7 +57,7 @@ cnn/
 
 5. Load hairdisease dataset into root directory from https://www.kaggle.com/datasets/abubakar4u900/hair-and-scalp-disease-dataset
    run >>python splittor.py
-   to create train/..,test/.. and val/.. in dataset folder from all/.. folder
+   once to create train/..,test/.. and val/.. in dataset folder from all/.. folder
    
 6. Train model using dataset
    run >>jupyter notebook
