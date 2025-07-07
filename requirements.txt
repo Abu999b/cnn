@@ -43,3 +43,6 @@ seaborn
 
 gdown
 huggingface_hub
+
+requests
+
